@@ -26,8 +26,6 @@ func (*exampleResolverBuilder) Build(target resolver.Target, cc resolver.ClientC
 }
 func (*exampleResolverBuilder) Scheme() string { return myScheme }
 
-// exampleResolver is a
-// Resolver(https://godoc.org/google.golang.org/grpc/resolver#Resolver).
 type exampleResolver struct {
 	target     resolver.Target
 	cc         resolver.ClientConn
